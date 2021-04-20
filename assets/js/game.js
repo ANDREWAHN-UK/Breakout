@@ -1,9 +1,26 @@
 
-var canvas = document.getElementById("myCanvas");
-var ctx = canvas.getContext("2d");
+const cvs =document.getElementById("breakout");
 
-ctx.beginPath();
-ctx.rect(20, 40, 50, 50);
-ctx.fillStyle = "#FF0000";
-ctx.fill();
-ctx.closePath();
+const ctx = cvs.getContext("2d");
+
+
+
+function drawRect(x,y){
+
+    ctx.fillstyle = "blue";
+
+    ctx.fillRect(x,y, 100, 10);
+}
+
+drawRect(350,600)
+
+function loop(){
+
+    ctx.clear (0,0, cvs.width, cvs.height);
+    drawRect(350, y)
+    y += 50;
+    requestAnimationFrame(loop);
+
+}
+
+loop()
