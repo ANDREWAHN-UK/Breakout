@@ -1,26 +1,23 @@
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+var x = canvas.width/2;
+var y = canvas.height-30;
+var dx = 2;
+var dy = -2;
 
-const cvs =document.getElementById("breakout");
-
-const ctx = cvs.getContext("2d");
-
-
-
-function drawRect(x,y){
-
-    ctx.fillstyle = "blue";
-
-    ctx.fillRect(x,y, 100, 10);
+function drawBall() {
+    ctx.beginPath();
+    ctx.arc(x, y, 10, 0, Math.PI*2);
+    ctx.fillStyle = "#0095DD";
+    ctx.fill();
+    ctx.closePath();
 }
 
-drawRect(350,600)
-
-function loop(){
-
-    ctx.clear (0,0, cvs.width, cvs.height);
-    drawRect(350, y)
-    y += 50;
-    requestAnimationFrame(loop);
-
+function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    drawBall();
+    x += dx;
+    y += dy;
 }
 
-loop()
+setInterval(draw, 10);
