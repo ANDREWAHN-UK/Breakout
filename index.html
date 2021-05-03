@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
     <title>Document</title>
 </head>
 <body>
+    <!-- navbar section-->
+    <nav class="navbar">
+
+        <!-- Home link, links to index.html-->
+        <a href="index.html" class="navbar-link">
+            <i class ="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+
+        <!-- About link, links to section 1-->
+        <a href="#section-1-link" class="navbar-link">
+            <i class ="fas fa-home"></i>
+            <span>About</span>
+        </a>
+
+        <!-- Games link, links to section 2-->
+        <a href="section-2" class="navbar-link">
+            <i class ="fas fa-home"></i>
+            <span>Games</span>
+        </a>
+
+        <!-- About link, links to section 3-->
+        <a href="section-3" class="navbar-link">
+            <i class ="fas fa-home"></i>
+            <span>About</span>
+        </a>
+
+    </nav>
+    <!-- this div will hold all the sections except the header and footer -->
+    <div class="container-fluid">
+
+
+        <!-- section 1 is the intro page-->
+        <section class="section-1" id = "section-1-link">
+            <h1 class ="section-heading">Quondam Games</h1>
+            <p>
+                A website dedicated to recreating classic Arcade games in Javascript
+            </p>
+
+        </section>
+
+        <!-- section 2 will hold the games links -->
+        <section class="section-2">
+
+            <p>
+                Choose your game below. Click play to open it in a new window
+            </p>
+
+        </section>
+
+        <!-- section 3 is the contact section -->
+        <section class="section-3">
+
+            <p>Contact</p>
+
+        </section>
+    </div>
+
+     <div class="fixed-footer">
+        <div class="container">Copyright &copy; 2021 Quondam Games</div>        
+    </div>
+
     
 </body>
 </html>
