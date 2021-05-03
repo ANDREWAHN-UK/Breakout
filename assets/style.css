@@ -34,6 +34,11 @@
     opacity: 1;
 }
 
+/*adjusted this so section 1,2,3 occupy the same width as the navbar*/
+.container-fluid{
+    padding: 0;
+}
+
 /*section 1 styling*/
 
 .section-1 {
@@ -79,10 +84,10 @@
         padding: 10px 0;
         color: rgb(187, 162, 23);
         bottom: 0;
-    }
+}
 
 .container{
         width: 80%;
         margin: 0 40% auto; /* get the copyright text centre*/
         
-    }
+}
