@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,103 +9,116 @@
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <!-- navbar section-->
     <nav class="navbar">
 
         <!-- Home link, links to index.html-->
         <a href="index.html" class="navbar-link">
-            <i class ="fas fa-home"></i>
+            <i class="fas fa-home"></i>
             <span>Home</span>
         </a>
 
         <!-- About link, links to section 1-->
         <a href="#section-1-link" class="navbar-link">
-            <i class ="fas fa-home"></i>
+            <i class="fas fa-home"></i>
             <span>About</span>
         </a>
 
         <!-- Games link, links to section 2-->
         <a href="#section-2-link" class="navbar-link">
-            <i class ="fas fa-home"></i>
+            <i class="fas fa-home"></i>
             <span>Games</span>
         </a>
 
         <!-- About link, links to section 3-->
         <a href="#section-3-link" class="navbar-link">
-            <i class ="fas fa-home"></i>
+            <i class="fas fa-home"></i>
             <span>Contact</span>
         </a>
 
     </nav>
     <!-- this div will hold all the sections except the header and footer -->
-    <div class="container-fluid">       
-            
-        <!-- section 1 is the intro page-->
-        <section class="section-1" id = "section-1-link">
-            <h1 class ="section-heading">Quondam Games</h1>
-            <p class="section-1-paragraph">
-                A website dedicated to recreating classic Arcade games in Javascript
-            </p>
+    <div class="container-fluid">
 
-        </section>
-    
+        <!-- section 1 is the intro page-->
+
+        <div class="section-1">
+            
+            <section id="section-1-link">
+                <h1 class="section-heading">Quondam Games</h1>
+                <p class="section-1-paragraph">
+                    A website dedicated to recreating classic Arcade games in Javascript
+                </p>
+
+            </section>
+        </div>
+
+
 
         <!-- section 2 will hold the games links -->
-        <section class="section-2" id = "section-2-link">
 
-            <h1 class ="section-heading">Games!</h1>
+        <section class="section-2" id="section-2-link">
 
-            <p class = "section-2-paragraph">
+            <h1 class="section-heading">Games!</h1>
+
+            <p class="section-2-paragraph">
                 Choose your game below. Click play to open it in a new window.
             </p>
 
             <div class="games-gallery">
 
-            <!-- duplicate this for each new game -->
-            <!-- use js to open a popup -->
+                <!-- duplicate this for each new game -->
+                <!-- use js to open a popup -->
 
-            <a class="game-link">
-                <img src ="assets/images/breakout small image.jpg" alt ="screenshot of the Breakout game" class ="game-image">
-                <h3 class ="game-name"> Breakout</h3>
-                <p class ="game-description"> Use the ball to destroy the bricks</p>
-            </a> 
-            
+                <a class="game-link">
+                    <img src="assets/images/breakout small image.jpg" alt="screenshot of the Breakout game"
+                        class="game-image">
+                    <h3 class="game-name"> Breakout</h3>
+                    <p class="game-description"> Use the ball to destroy the bricks</p>
+                </a>
 
-            <a class="game-link">
-                <img src ="assets/images/breakout small image.jpg" alt ="screenshot of the Breakout game" class ="game-image">
-                <h3 class ="game-name"> Tetris</h3>
-                <p class ="game-description"> Place the bricks to create rows and columns</p>
-            </a>
 
-            <a class="game-link">
-                <img src ="assets/images/breakout small image.jpg" alt ="screenshot of the Breakout game" class ="game-image">
-                <h3 class ="game-name"> Snake</h3>
-                <p class ="game-description"> Grow your snake by consuming items</p>
-            </a>
+                <a class="game-link">
+                    <img src="assets/images/breakout small image.jpg" alt="screenshot of the Breakout game"
+                        class="game-image">
+                    <h3 class="game-name"> Tetris</h3>
+                    <p class="game-description"> Place the bricks to create rows and columns</p>
+                </a>
 
-            <a class="game-link">
-                <img src ="assets/images/breakout small image.jpg" alt ="screenshot of the Breakout game" class ="game-image">
-                <h3 class ="game-name"> 2048 </h3>
-                <p class ="game-description"> slide numbered tiles on a grid to combine them to create a tile with the number 2048 </p>
-            </a>
-        
-        </div>
+                <a class="game-link">
+                    <img src="assets/images/breakout small image.jpg" alt="screenshot of the Breakout game"
+                        class="game-image">
+                    <h3 class="game-name"> Snake</h3>
+                    <p class="game-description"> Grow your snake by consuming items</p>
+                </a>
+
+                <a class="game-link">
+                    <img src="assets/images/breakout small image.jpg" alt="screenshot of the Breakout game"
+                        class="game-image">
+                    <h3 class="game-name"> 2048 </h3>
+                    <p class="game-description"> slide numbered tiles on a grid to combine them to create a tile with
+                        the number 2048 </p>
+                </a>
+
+            </div>
 
         </section>
 
         <!-- section 3 is the contact section -->
-        <section class="section-3" id = "section-3-link">
+        <section class="section-3" id="section-3-link">
 
             <p>Contact</p>
 
         </section>
     </div>
-        <!-- footer section-->
-     <div class="fixed-footer">
-        <div class="container">Copyright &copy; 2021 Quondam Games</div>        
+    <!-- footer section-->
+    <div class="fixed-footer">
+        <div class="container">Copyright &copy; 2021 Quondam Games</div>
     </div>
 
-    
+
 </body>
+
 </html>
