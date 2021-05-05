@@ -10,7 +10,7 @@
 
 
 /*navbar styling*/
-.navbar{
+.navbar {
     width: 100%;
     height: 12%;
     background-color: #333;
@@ -23,7 +23,7 @@
     transition: top .4s .2s;
 }
 
-.navbar-link{
+.navbar-link {
     color: rgb(187, 162, 23);
     margin: 0 4rem;
     display: flex;
@@ -34,19 +34,19 @@
     opacity: 1;
 }
 
-.navbar-link i{
+.navbar-link i {
     font-size: 50px;
 }
 
 /*adjusted this so section 1,2,3 occupy the same width as the navbar*/
-.container-fluid{
+.container-fluid {
     padding: 0;
     background-image: image("https://i.imgur.com/96RMiTj.jpg");
 }
 
 /*section 1 styling*/
 
-.section-heading{
+.section-heading {
     font-size: 12rem;
     font-weight: 900;
     color: #fff;
@@ -60,7 +60,7 @@
 
 .section-1 {
     /*height and width make it take over the entire viewport*/
-    width: 100%;    
+    width: 100%;
     height: 100vh;
     background-color: rgb(238, 210, 210);
     display: flex;
@@ -68,47 +68,48 @@
     align-items: center;
     justify-content: space-evenly;
     background-image: image('https://i.imgur.com/96RMiTj.jpg');
-    
+
 }
 
-.section-1-paragraph{
+.section-1-paragraph {
     font-size: 4rem;
     text-align: center;
 }
+
 /*section 2 styling*/
 
 .section-2 {
     /*height and width make it take over the entire viewport*/
-    width: 100%;    
+    width: 100%;
     height: 100vh;
     background-color: rgb(210, 222, 238);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    
+
 }
 
-.games-gallery{
-     display: flex;
+.games-gallery {
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 10rem;
 }
 
-.game-link{
+.game-link {
     position: relative;
     margin: 4rem 1rem;
 }
 
-.game-image{
+.game-image {
     width: 20vw;
     height: 15vw;
     object-fit: cover;
 }
 
-.game-name{
+.game-name {
     position: absolute;
     top: 12rem;
     left: 10rem;
@@ -120,11 +121,12 @@
     width: 0;
     overflow: visible;
 }
+
 /*section 3 styling*/
 
 .section-3 {
     /*height and width make it take over the entire viewport*/
-    width: 100%;    
+    width: 100%;
     height: 100vh;
     background-color: rgb(195, 221, 188);
     display: flex;
@@ -132,19 +134,34 @@
     align-items: center;
     justify-content: space-evenly;
 }
-/*footer styling*/
 
-.fixed-footer{
-        width: 100%;
-        position: fixed;        
-        background: #333;
-        padding: 10px 0;
-        color: rgb(187, 162, 23);
-        bottom: 0;
+/*breakout game styling*/
+
+canvas {
+    background-image: url(https://i.imgur.com/U6ABki6.jpg);
+    display: block;
+    margin: 0 auto;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
-.container{
-        width: 80%;
-        margin: 0 40% auto; /* get the copyright text centre*/
-        
+/*footer styling*/
+
+.fixed-footer {
+    width: 100%;
+    position: fixed;
+    background: #333;
+    padding: 10px 0;
+    color: rgb(187, 162, 23);
+    bottom: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 40% auto;
+    /* get the copyright text centre*/
+
 }
