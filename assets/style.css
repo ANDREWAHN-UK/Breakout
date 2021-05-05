@@ -34,12 +34,26 @@
     opacity: 1;
 }
 
+.navbar-link i{
+    font-size: 50px;
+}
+
 /*adjusted this so section 1,2,3 occupy the same width as the navbar*/
 .container-fluid{
     padding: 0;
 }
 
 /*section 1 styling*/
+
+.section-heading{
+    font-size: 12rem;
+    font-weight: 900;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: .5rem;
+    text-shadow: .2rem .2rem .2rem #000;
+}
 
 .section-1 {
     /*height and width make it take over the entire viewport*/
@@ -50,6 +64,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    
+}
+
+.section-1-paragraph{
+    font-size: 4rem;
+    text-align: center;
 }
 /*section 2 styling*/
 
@@ -62,6 +82,38 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.games-gallery{
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+}
+
+.game-link{
+    position: relative;
+    margin: 4rem 1rem;
+}
+
+.game-image{
+    width: 20vw;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.game-name{
+    position: absolute;
+    top: 12rem;
+    left: 10rem;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #fff;
+    width: 0;
+    overflow: visible;
 }
 /*section 3 styling*/
 
