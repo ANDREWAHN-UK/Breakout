@@ -59,64 +59,51 @@
 
         <!-- section 2 will hold the games links -->
 
-        <section class="section-2" id="section-2-link">
+        <div class="section-2" id="section-2-link">
 
-            <h1 class="section-heading">Games!</h1>
+            <div class="slideshow-container">
 
-            <p class="section-2-paragraph">
-                Choose your game below. Click play to open it in a new window.
-            </p>
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="img_nature_wide.jpg" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
 
-            <div class="games-gallery">
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="img_snow_wide.jpg" style="width:100%">
+                    <div class="text">Caption Two</div>
+                </div>
 
-                <!-- duplicate this for each new game -->
-                <!-- use js to open a popup -->
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="img_mountains_wide.jpg" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
 
-                <a href="breakout.html" class="game-link">
-                    <img src="assets/images/breakout small image.jpg" alt="screenshot of the Breakout game"
-                        class="game-image">
-                    <h3 class="game-name"> Breakout</h3>
-                    <p class="game-description"> Use the ball to destroy the bricks</p>
-                </a>
-
-
-                <a class="game-link">
-                    <img src="assets/images/breakout small image.jpg" alt="screenshot of the Breakout game"
-                        class="game-image">
-                    <h3 class="game-name"> Tetris</h3>
-                    <p class="game-description"> Place the bricks to create rows and columns</p>
-                </a>
-
-                <a class="game-link">
-                    <img src="assets/images/breakout small image.jpg" alt="screenshot of the Breakout game"
-                        class="game-image">
-                    <h3 class="game-name"> Snake</h3>
-                    <p class="game-description"> Grow your snake by consuming items</p>
-                </a>
-
-                <a class="game-link">
-                    <img src="assets/images/breakout small image.jpg" alt="screenshot of the Breakout game"
-                        class="game-image">
-                    <h3 class="game-name"> 2048 </h3>
-                    <p class="game-description"> slide numbered tiles on a grid to combine them to create a tile with
-                        the number 2048 </p>
-                </a>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
             </div>
+            <br>
 
-        </section>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
 
-      
-  
-    </div>
+
+
+        </div> <!-- end of section 2 div -->
 
         <!-- section 3 is the contact section -->
-        <section class="section-3" id="section-3-link">
+        <div class="section-3" id="section-3-link">
 
             <p>Contact</p>
 
-        </section>
-    </div>
+        </div>
+    </div> <!--  end of main div -->
     <!-- footer section-->
     <div class="fixed-footer">
         <div class="container">Copyright &copy; 2021 Quondam Games</div>
