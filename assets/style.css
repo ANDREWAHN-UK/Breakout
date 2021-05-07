@@ -41,7 +41,6 @@
 /*adjusted this so section 1,2,3 occupy the same width as the navbar*/
 .container-fluid {
     padding: 0;
-    background-image: image("https://i.imgur.com/96RMiTj.jpg");
 }
 
 /*section 1 styling*/
@@ -120,6 +119,23 @@
     color: #fff;
     width: 0;
     overflow: visible;
+}
+
+
+/* carousel settings */
+
+.carousel-img{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-inner img {       
+   display:block;
+   height: auto; 
+   max-width: 100%;
 }
 
 /*section 3 styling*/
