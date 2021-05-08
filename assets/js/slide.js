@@ -32,6 +32,8 @@ function moveToPrevSlide() {
     updateSlidePosition();
 }
 
+
+// tells js to hide all carousel items except the one selected
 function updateSlidePosition(){
     for(let slide of slides) {
         slide.classList.remove('carousel-item-visible');
@@ -40,4 +42,3 @@ function updateSlidePosition(){
 
     slides[slidePosition].classList.add('carousel-item-visible');
 }
-© 2021 GitHub, Inc.
